@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044DF347243B9F8D002AFEF0 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DF346243B9F8D002AFEF0 /* CreateGoalVC.swift */; };
+		044EEA8B243BF54A0014A782 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EEA8A243BF54A0014A782 /* UIViewControllerExt.swift */; };
+		044EEA8D243BFAF80014A782 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EEA8C243BFAF80014A782 /* UIViewExt.swift */; };
+		044EEA8F243C0C1A0014A782 /* UIButtonEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EEA8E243C0C1A0014A782 /* UIButtonEXT.swift */; };
+		044EEA93243C1AB80014A782 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EEA92243C1AB80014A782 /* FinishGoalVC.swift */; };
+		0458BB6D2438CD7D001AA099 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458BB6C2438CD7D001AA099 /* GoalCell.swift */; };
 		04B14DA5243834FE00E6A47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B14DA4243834FE00E6A47F /* AppDelegate.swift */; };
 		04B14DA7243834FE00E6A47F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B14DA6243834FE00E6A47F /* SceneDelegate.swift */; };
-		04B14DA9243834FE00E6A47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B14DA8243834FE00E6A47F /* ViewController.swift */; };
+		04B14DA9243834FE00E6A47F /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B14DA8243834FE00E6A47F /* GoalsVC.swift */; };
 		04B14DAC243834FE00E6A47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B14DAA243834FE00E6A47F /* Main.storyboard */; };
 		04B14DAF243834FE00E6A47F /* goolpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B14DAD243834FE00E6A47F /* goolpost_app.xcdatamodeld */; };
 		04B14DB1243834FF00E6A47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B14DB0243834FF00E6A47F /* Assets.xcassets */; };
 		04B14DB4243834FF00E6A47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B14DB2243834FF00E6A47F /* LaunchScreen.storyboard */; };
+		04D54229243900460090BEE2 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D54228243900460090BEE2 /* GoalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044DF346243B9F8D002AFEF0 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateGoalVC.swift; path = "goolpost-app/View/CreateGoalVC.swift"; sourceTree = SOURCE_ROOT; };
+		044EEA8A243BF54A0014A782 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		044EEA8C243BFAF80014A782 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		044EEA8E243C0C1A0014A782 /* UIButtonEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonEXT.swift; sourceTree = "<group>"; };
+		044EEA92243C1AB80014A782 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
+		0458BB6C2438CD7D001AA099 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		04B14DA1243834FE00E6A47F /* goolpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goolpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B14DA4243834FE00E6A47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B14DA6243834FE00E6A47F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04B14DA8243834FE00E6A47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04B14DA8243834FE00E6A47F /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		04B14DAB243834FE00E6A47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B14DAE243834FE00E6A47F /* goolpost_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goolpost_app.xcdatamodel; sourceTree = "<group>"; };
 		04B14DB0243834FF00E6A47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B14DB3243834FF00E6A47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B14DB5243834FF00E6A47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D54228243900460090BEE2 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +72,13 @@
 		04B14DA3243834FE00E6A47F /* goolpost-app */ = {
 			isa = PBXGroup;
 			children = (
+				04B14DBF2438357600E6A47F /* Extensions */,
+				04B14DBE2438356600E6A47F /* Enums */,
+				04B14DBD2438355200E6A47F /* Model */,
+				04B14DBC2438354800E6A47F /* View */,
+				04B14DBB2438353200E6A47F /* Controller */,
 				04B14DA4243834FE00E6A47F /* AppDelegate.swift */,
 				04B14DA6243834FE00E6A47F /* SceneDelegate.swift */,
-				04B14DA8243834FE00E6A47F /* ViewController.swift */,
 				04B14DAA243834FE00E6A47F /* Main.storyboard */,
 				04B14DB0243834FF00E6A47F /* Assets.xcassets */,
 				04B14DB2243834FF00E6A47F /* LaunchScreen.storyboard */,
@@ -68,6 +86,49 @@
 				04B14DAD243834FE00E6A47F /* goolpost_app.xcdatamodeld */,
 			);
 			path = "goolpost-app";
+			sourceTree = "<group>";
+		};
+		04B14DBB2438353200E6A47F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04B14DA8243834FE00E6A47F /* GoalsVC.swift */,
+				044DF346243B9F8D002AFEF0 /* CreateGoalVC.swift */,
+				044EEA92243C1AB80014A782 /* FinishGoalVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04B14DBC2438354800E6A47F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0458BB6C2438CD7D001AA099 /* GoalCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B14DBD2438355200E6A47F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04B14DBE2438356600E6A47F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				04D54228243900460090BEE2 /* GoalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		04B14DBF2438357600E6A47F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				044EEA8A243BF54A0014A782 /* UIViewControllerExt.swift */,
+				044EEA8C243BFAF80014A782 /* UIViewExt.swift */,
+				044EEA8E243C0C1A0014A782 /* UIButtonEXT.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +202,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044EEA8D243BFAF80014A782 /* UIViewExt.swift in Sources */,
 				04B14DAF243834FE00E6A47F /* goolpost_app.xcdatamodeld in Sources */,
-				04B14DA9243834FE00E6A47F /* ViewController.swift in Sources */,
+				04B14DA9243834FE00E6A47F /* GoalsVC.swift in Sources */,
+				044EEA8F243C0C1A0014A782 /* UIButtonEXT.swift in Sources */,
+				044EEA8B243BF54A0014A782 /* UIViewControllerExt.swift in Sources */,
+				044EEA93243C1AB80014A782 /* FinishGoalVC.swift in Sources */,
+				04D54229243900460090BEE2 /* GoalType.swift in Sources */,
 				04B14DA5243834FE00E6A47F /* AppDelegate.swift in Sources */,
+				044DF347243B9F8D002AFEF0 /* CreateGoalVC.swift in Sources */,
+				0458BB6D2438CD7D001AA099 /* GoalCell.swift in Sources */,
 				04B14DA7243834FE00E6A47F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
